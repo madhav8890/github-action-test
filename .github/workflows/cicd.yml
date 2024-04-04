@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Call API
         run: |
-          response=$(curl -s -X GET https://jsonplaceholder.typicode.com/posts)
+          response=$(curl -s -X GET https://flow.sokt.io/func/scriyxIVTzG3)
           echo "$response"
 
