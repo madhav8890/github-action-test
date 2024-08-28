@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Call API 
         run: |
-          response=$(curl -s -X GET https://flow.sokt.io/func/scriESGNpMOS?key)
+          response=$(curl -s -X GET https://flow.sokt.io/func/scriGyxssCRq)
           echo "$response"
 
